@@ -104,15 +104,12 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     )
     if LANGUAGES and OWNER:
         buttons.append(
-            [
-                InlineKeyboardButton(
-                    text=_["S_B_7"], user_id=OWNER"
-                ),
-                InlineKeyboardButton(
-                    text=_["ST_B_6"], callback_data="LG"
-                ),
-            ]
-        )
+            buttons.append(
+                [
+                    InlineKeyboardButton(text=_["S_B_7"], user_id=OWNER),
+                    InlineKeyboardButton(text=_["ST_B_6"], callback_data="LG"),
+                ]
+           )
     else:
         buttons.append(
         [InlineKeyboardButton(text=_["ST_B_6"], callback_data="LG")]
