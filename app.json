@@ -48,11 +48,6 @@
         "value": "",
         "required": true
       },
-      "OWNER_USERNAME": {
-        "description": "fill with your telegram account username without @",
-        "value": "",
-        "required": false
-      },
       "SUPPORT_CHANNEL": {
         "description": "Support Channel Link if you have any, Leave blank if no support. Your link must start with https://t.me/",
         "value": "",
