@@ -73,7 +73,7 @@
         "value": "",
         "required": false
       },
-      "GITHUB_REPO ": {
+      "GITHUB_REPO": {
         "Start Repo",
         "value": "",
         "required": false
